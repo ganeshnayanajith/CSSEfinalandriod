@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292576144553",
+    "firebase_url": "https://csse-c87e3.firebaseio.com",
+    "project_id": "csse-c87e3",
+    "storage_bucket": "csse-c87e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292576144553:android:d085c65dd0518a31bacdb8",
+        "android_client_info": {
+          "package_name": "com.example.alexa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292576144553-dhclpvkdq7cnb280qcsq730ti6pm2cv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alexa",
+            "certificate_hash": "a20c46a67d06aefe0d5b3aaa3313395c88f5c1dd"
+          }
+        },
+        {
+          "client_id": "292576144553-u5hnj3fsavtp76amdnnchpue51qj9si9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQicBJUlXFxq2d90HNN11eQ0MOYeu-L-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292576144553-u5hnj3fsavtp76amdnnchpue51qj9si9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

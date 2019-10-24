@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Quantity"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/capriola"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sub_24dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/button_background"/>
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@drawable/button_background"
+                    android:padding="8dp"
+                    android:textSize="16dp"/>
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add_24dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/button_background"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cubic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/subCubic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sub_24dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/button_background"/>
+                <TextView
+                    android:id="@+id/quantityCubic"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@drawable/button_background"
+                    android:padding="8dp"
+                    android:textSize="16dp"/>
+                <ImageView
+                    android:id="@+id/addCubic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add_24dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/button_background"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/bree_serif"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="Cancel"
+                android:textColor="#8703CD"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="Select"
+                android:textColor="#8703CD"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/bree_serif"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

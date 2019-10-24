@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="item name"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:scrollbars="horizontal"
+        android:textSize="15dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:fontFamily="monospace"
+        android:text="quantity"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:text="Total"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
